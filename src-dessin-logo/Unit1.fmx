@@ -1,0 +1,74 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 864
+  ClientWidth = 1011
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object pile: TLayout
+    Align = Center
+    Size.Width = 400.000000000000000000
+    Size.Height = 840.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    TabStop = False
+    object RadiantRectangle1: TRadiantRectangle
+      Align = Client
+      Fill.Color = claBlack
+      HitTest = False
+      Padding.Left = 20.000000000000000000
+      Padding.Top = 20.000000000000000000
+      Padding.Right = 20.000000000000000000
+      Padding.Bottom = 20.000000000000000000
+      Size.Width = 400.000000000000000000
+      Size.Height = 800.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      Stroke.Thickness = 12.000000000000000000
+      Stroke.Cap = Round
+      XRadius = 10.000000000000000000
+      YRadius = 5.000000000000000000
+      object gaugeLED: TTMSFMXLEDMeter
+        Align = Client
+        Size.Width = 360.000000000000000000
+        Size.Height = 760.000000000000000000
+        Size.PlatformDefault = False
+        HitTest = False
+        StrokeThickness = 1.000000000000000000
+        StartColor = xFF7A0B0B
+        StopColor = claGreen
+        ActiveStartColor = claRed
+        ActiveStopColor = claLime
+        Value = 70
+        Steps = 100
+        PeakValue = 70
+        ShowPeak = False
+        PeakColor = claNull
+        object visuelFleche: TRadiantArrow
+          Align = Center
+          HitTest = False
+          Size.Width = 200.000000000000000000
+          Size.Height = 200.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object RadiantCapsule1: TRadiantCapsule
+      Align = Top
+      Fill.Color = claWhite
+      HitTest = False
+      Margins.Left = 160.000000000000000000
+      Margins.Right = 160.000000000000000000
+      Position.X = 160.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      Corners = [TopLeft, TopRight]
+    end
+  end
+end
