@@ -1,4 +1,4 @@
-# Delphi-Projects-Template
+# Pompach
 
 [This page in english.](README.md)
 
