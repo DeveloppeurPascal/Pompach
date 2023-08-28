@@ -2,34 +2,36 @@
 
 [Cette page en français.](LISEZMOI.md)
 
-**A git repository template for my Delphi (or other) projects.**
-
-**This template is distributed under the MIT license. The AGPL license is for the projects I create from this code repository template. Use whatever license you want if you use this template.**
+Small video game created at the Ludum Dare 39 game jam in July 2017 in Delphi in a FireMonkey project.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
-## Using this software
+## Using this game on Android or iOS (iPhone, iPod touch, iPad, iPad Pro)
+
+The mobile version of this game is available on [Google Play](https://play.google.com/store/apps/details?id=fr.gamolf.pompach.android), [Amazon Appstore](https://www.amazon.com/gp/product/B074DN28YK) and the [App Store](https://itunes.apple.com/us/app/pompach/id1265662368).
+
+## Using this game on Windows or Mac
 
 This software is available in a directly installable or executable production version. It is distributed as shareware.
 
 You can download and redistribute it free of charge, provided you do not modify its content (installer, program, additional files, etc.).
 
-[Download program or installer](DDD)
+[Download program or installer](https://pompach.gamolf.fr/)
 
 If you use this software regularly and are satisfied with it, you are invited to purchase an end-user license. Purchasing a license will give you access to software updates, as well as enabling optional features.
 
-[Buy a license](FFF)
+[Buy a license](https://gamolf.itch.io/pompach)
 
-You can also [visit the software website](EEE) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
+You can also [visit the software website](https://pompach.gamolf.fr/) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
 
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/Pompach).
 
 This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
 
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
+* [DeveloppeurPascal/Delphi-Game-Engine](https://github.com/DeveloppeurPascal/Delphi-Game-Engine) must be installed in the ./lib-externes/Delphi-Game-Engine subfolder.
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) must be installed in the ./lib-externes/librairies subfolder.
 
 ## License to use this code repository and its contents
 
@@ -48,7 +50,7 @@ Certain elements included in this repository may be subject to third-party usage
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/Pompach) and [open a new issue](https://github.com/DeveloppeurPascal/Pompach/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 
