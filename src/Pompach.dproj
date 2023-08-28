@@ -5,9 +5,9 @@
         <FrameworkType>FMX</FrameworkType>
         <MainSource>Pompach.dpr</MainSource>
         <Base>True</Base>
-        <Config Condition="'$(Config)'==''">Release</Config>
-        <Platform Condition="'$(Platform)'==''">Android64</Platform>
-        <TargetedPlatforms>693395</TargetedPlatforms>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>169107</TargetedPlatforms>
         <AppType>Application</AppType>
         <Profile Condition="'$(Platform)'=='OSX64'">iMac</Profile>
         <PlatformSDK Condition="'$(PlatformSDK)'=='' And '$(Platform)'=='Android64'">AndroidSDK34.0.0_64bit.sdk</PlatformSDK>
@@ -2048,7 +2048,7 @@
                 <Platform value="Android">True</Platform>
                 <Platform value="Android64">True</Platform>
                 <Platform value="iOSDevice64">True</Platform>
-                <Platform value="iOSSimARM64">True</Platform>
+                <Platform value="iOSSimARM64">False</Platform>
                 <Platform value="Linux64">True</Platform>
                 <Platform value="OSX64" Profile="iMac">True</Platform>
                 <Platform value="OSXARM64">True</Platform>
